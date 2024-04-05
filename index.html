@@ -7,47 +7,59 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>WorldClock</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
     <div class="container">
         <h1>World Clock</h1>
-<select id="selectCities">
+        <img class="logo" src="SheCodes.png" width="100"/>
+        
+<select id="select-cities">
     <option value="select">Select a city</option>
     <option value="paris">Paris</option>
     <option value="">London</option>
     <option value="">New York</option>
 </select>
-<div class="cities">
-<h2>London 🇬🇧</h2>
+<div class="city">
+    <div>
+<h2>London </h2>
 <div class="date">April 5, 2024</div>
-<div class="time">1:48:15 AM</div>
-<h2>Sydney 🇦🇺
+</div>
+<div class="time">1:48:15 <small>AM</small></div>
+</div>
+
+<div class="city">
+    <div>
+<h2>Sydney 
     </h2>
 <div class="date">April 5, 2024</div>
-<div class="time">1:48:15 AM</div>
+</div>
+<div class="time">1:48:15 <small>AM</small></div>
 </div>
 <br>
-        <footer>
-            This project was coded by
-            <a href="https://github.com/IlariaViglino" target="_blank"
-              >Ilaria Viglino</a
-            >
-            and is on
-            <a
-              href="https://github.com/IlariaViglino/world-clock"
-              target="_blank"
-              >GitHub</a
-            >
-            and hosted on
-            <a href="https://world-clockish.netlify.app/" target="_blank"
-              >Netlify</a
-            >
-          </footer>
 
 
     </div>
     
-
+    <footer>
+        This project was coded by
+        <a href="https://github.com/IlariaViglino" target="_blank"
+          >Ilaria Viglino</a
+        >
+        and is on
+        <a
+          href="https://github.com/IlariaViglino/world-clock"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://world-clockish.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
     <script src="javascript/index.js"></script>
 </body>
 </html>
